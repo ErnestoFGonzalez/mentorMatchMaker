@@ -10,12 +10,6 @@ mentores_answers = pd.read_csv('data/mentores/Registo mentores.csv')
 # load mentorandos answers
 mentorandos_answers = pd.read_csv('data/mentorandos/Registo mentorandos.csv')
 
-# i = 0
-# for column in mentores_answers.columns:
-#     print(i,column)
-#     i += 1
-
-
 
 def check_entry(mentor_entry, mentorando_entry):
     """
